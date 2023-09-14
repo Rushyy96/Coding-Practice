@@ -1,0 +1,170 @@
+.header
+{
+height: 56px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+background-color: white;
+border-bottom-width: 1px;
+border-color: rgb(228, 228, 228);
+border-bottom-style: solid;
+z-index: 100;
+}
+
+.left-section
+{
+display: flex;
+align-items: center;
+}
+
+.mid-section
+{
+display: flex;
+flex: 1;
+margin-left: 66px;
+margin-right: 32px;
+max-width: 800px;
+align-items: center;
+}
+
+.right-section
+{
+display: flex;
+width: 200px;
+align-items: center;
+justify-content: space-between;
+margin-right: 20px;
+flex-shrink: 0;
+}
+
+.search
+{
+flex: 1;
+height: 34px;
+padding-left: 8px;
+font-size: 16px;
+border-style: solid;
+border-color: rgb(177, 173, 173);
+border-radius: 2px;
+box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.05);
+width: 0;
+}
+
+.menu
+{
+height: 24px;
+margin-left: 24px;
+margin-right: 24px;
+}
+
+.yt-logo
+{
+    height: 20px;
+}
+
+
+
+.search-icon
+{
+height: 25px;
+}
+
+
+.voice-icon
+{
+height: 24px;
+}
+
+.upload
+{
+height: 32px;
+}
+
+.apps-icon
+{
+height: 32px;
+}
+
+.notifications
+{
+height: 32px;
+}
+
+.user-account-icon
+{
+height: 32px;
+width: 32px;
+object-fit: cover;
+    border-radius: 50%;
+}
+
+.notifications-container
+{
+position: relative;
+}
+
+.notifications-count
+{
+    position: absolute;
+    top: -2px;
+    width: 8px;
+    right: -5px;
+    background-color: rgb(238, 3, 3);
+    color: white;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 5px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+
+.voice-search-btn,
+.search-btn
+{
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+position: relative;
+white-space: nowrap;
+}
+
+.voice-search-btn
+{
+height: 40px;
+width: 40px;
+border-radius: 20px;
+}
+.search-btn
+{
+height: 40px;
+width: 60px;
+margin-right: 12px;
+border: none;
+border-radius: 2px;
+}
+
+.search-btn .tooltip,
+.voice-search-btn .tooltip
+{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -32px;
+    opacity: 0;
+    white-space: nowrap;
+}
+
+.search-btn:hover .tooltip,
+.voice-search-btn:hover .tooltip
+{
+    opacity: 1;
+}

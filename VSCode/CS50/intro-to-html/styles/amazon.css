@@ -1,0 +1,47 @@
+.cart-btn
+  {
+    background-color: rgb(255, 215, 20);
+    color: black;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 14;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .buy-btn
+  {
+  background-color: rgb(255, 165, 28);
+  color: black;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight:600;
+  font-size: 14px;
+  border: none;
+  border-radius: 16px;
+  }
+
+  .price-text
+  {
+    color: rgb(0, 118, 0);
+    font-weight: 600;
+  }
+  .pagination
+  {
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 18px;
+  }
+  .pagination-button
+  {
+  padding-left: 8;
+  padding-right: 8;
+  padding-top: 4;
+  padding-bottom: 4;
+  }
