@@ -122,18 +122,6 @@ position: relative;
     font-size: 14px;
 }
 
-
-.voice-search-btn,
-.search-btn
-{
-display: flex;
-justify-content: center;
-align-items: center;
-border: none;
-position: relative;
-white-space: nowrap;
-}
-
 .voice-search-btn
 {
 height: 40px;
@@ -149,22 +137,46 @@ border: none;
 border-radius: 2px;
 }
 
-.search-btn .tooltip,
-.voice-search-btn .tooltip
+.voice-search-btn,
+.search-btn,
+.upload-item-container,
+.apps-container,
+.notification-container,
+.profile-container
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    white-space: nowrap;
+}
+
+.search-btn .tooltip,
+.voice-search-btn .tooltip,
+.upload-item-container .tooltip,
+.apps-container .tooltip,
+.notification-container .tooltip,
+.profile-container .tooltip
+{
+    font-family: Arial;
     position: absolute;
     background-color: gray;
     color: white;
     padding: 8px;
     border-radius: 2px;
     font-size: 12px;
-    bottom: -32px;
+    bottom: -40px;
     opacity: 0;
     white-space: nowrap;
 }
 
 .search-btn:hover .tooltip,
-.voice-search-btn:hover .tooltip
+.voice-search-btn:hover .tooltip,
+.upload-item-container:hover .tooltip,
+.apps-container:hover .tooltip,
+.notification-container:hover .tooltip,
+.profile-container:hover .tooltip
 {
     opacity: 1;
 }
