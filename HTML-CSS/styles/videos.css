@@ -82,19 +82,20 @@ grid-template-columns: 56px 1fr;
 }
 .video-time
 {
-    background-color: black;
-    color: white;
-    position: absolute;
-    bottom: 8px;
-    right: 5px;
-    font-size: 12px;
-    padding: 4px;
-    font-weight: bold;
-    border-radius: 2px;
+background-color: black;
+color: white;
+position: absolute;
+bottom: 8px;
+right: 5px;
+font-size: 12px;
+padding: 4px;
+font-weight: bold;
+border-radius: 2px;
 }
 
 .video-grid
 {
+font-family: arial;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 column-gap: 16px;
