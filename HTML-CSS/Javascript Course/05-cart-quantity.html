@@ -16,21 +16,30 @@
     </button>
 
     <button onclick="
-    cartQuantity += 1
-    console.log(`Cart Quantity: ${cartQuantity}`);
+    cartNumber(-1) 
+    ">Remove from Cart</button>
+
+    <button onclick="
+    cartNumber(-2) 
+    ">-2</button>
+
+    <button onclick="
+    cartNumber(-3) 
+    ">-3</button>
+
+    <button onclick="
+    cartNumber(1) 
     ">Add to Cart
     </button>
 
     <button onclick="
-    cartQuantity += 2
-    console.log(`Cart Quantity: ${cartQuantity}`);
+    cartNumber(2) 
     ">
         +2
     </button>
 
     <button onclick="
-    cartQuantity += 3
-    console.log(`Cart Quantity: ${cartQuantity}`);
+    cartNumber(3) 
     ">
         +3
     </button>
@@ -45,6 +54,21 @@
 
 <script>
     let cartQuantity = 0;
+    let maxCart = 10;
+ 
+    function cartNumber(change)
+    {
+        if ((cartQuantity + change) > 10 || (cartQuantity + change) < 0)
+            {
+                alert('cannot edit the cart further!');
+                return
+            }
+        else 
+            {
+                cartQuantity += change;
+                console.log(`Cart Quantity: ${cartQuantity}`);
+            }
+    }
 </script>
 </body>
 </html>
