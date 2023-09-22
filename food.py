@@ -1,5 +1,5 @@
-from flask.scaffold import F
-from sqlalchemy import over
+
+from sqlalchemy import false
 
 
 breakfast = 'toast and jam'
@@ -17,3 +17,4 @@ if basic:
     print(basic_comments)
 else:
     print(overall_comments)
+
