@@ -1,7 +1,4 @@
 
-from sqlalchemy import false
-
-
 breakfast = 'toast and jam'
 lunch = 'pasta'
 dinner = 'lasagna'
