@@ -1,0 +1,47 @@
+body
+{
+    background-color: rgb(25, 25, 25) ;
+    color: white;
+}
+
+img
+{
+    width: 50px;
+    background-color: transparent;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.test
+{
+    background-color: transparent;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 3px white solid;
+    margin: 20px;
+}
+
+.js-result
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.reset-score
+{
+    padding: 12px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.js-move
+{
+
+}
+
+.js-score
+{
+
+}

@@ -1,0 +1,18 @@
+button
+{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.is-toggled
+{
+    color: white;
+    background-color: black;
+}
+
+.js-button:hover
+{
+    cursor: pointer;
+}
